@@ -14,7 +14,8 @@
 		"express": "^4.14.0",
 		"helmet": "^3.23.3",
 		"mocha": "^3.2.0",
-		"mongodb": "^5.5.0"
+		"mongodb": "^5.5.0",
+		"node-fetch": "^3.3.1"
 	},
 	"repository": {
 		"type": "git",
