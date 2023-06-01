@@ -3,7 +3,7 @@ const {MongoClient} = require('mongodb');
 const hash = require('crypto').createHash;
 //const { env } = require('node:process');
 const env = process.env;
-const fetch = require("node-fetch");
+import fetch from "node-fetch";
 
 
 async function mongodb_main(client, ip_hash, symbol, like){
