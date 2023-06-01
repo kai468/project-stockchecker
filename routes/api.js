@@ -2,6 +2,7 @@
 const {MongoClient} = require('mongodb');
 const hash = require('crypto').createHash;
 //const { env } = require('node:process');
+const env = process.env;
 
 
 async function mongodb_main(client, ip_hash, symbol, like){
